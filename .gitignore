@@ -1,2 +1,5 @@
 processed_data/
-data/
+original_data/
+baseline_data/
+split_datasets/
+
