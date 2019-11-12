@@ -1,0 +1,19 @@
+Notes for Model:
+1. minimum_nights and maximum_nights are causing training curve to have spikes because of their large values. Should either normalize or remove.
+2. For xxx_df = pd.concat(frames, sort=False): change from sort=True to sort=False
+3. In dataloader, shuffle=False for easier analysis.
+4. In dataloader, num_workers=0 for windows
+5. Learning rate can be increased to say ~0.01 or 0.001 
+6. For statistics printing:
+   - change if i % 10 == 0 to == 9
+   - change print("..." % (i, ...)) to print("..." % (i+1, ...))
+
+(removed minimum_nights and maximum_nights)
+Trial 1
+MSELoss, SGD, lr = 0.01, m = 0.9
+Avg Error: 32, 36
+Avg Accuracy (<10): 0.22, 0.21
+
+Trial 2
+SmoothL1Loss, SGD, lr = 0.01, m = 0.9
+Avg Error: 
