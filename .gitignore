@@ -2,4 +2,7 @@ processed_data/
 original_dataset/
 baseline_data/
 split_datasets/
-
+test/**/**/lossplot/
+test/**/**/checkpoint/
+test/**/**/accplot/
+test/**/**/errorplot/
