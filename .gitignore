@@ -7,5 +7,5 @@ test/**/**/checkpoint/
 test/**/**/accplot/
 test/**/**/errorplot/
 test/**/**/final/checkpoint_final.tar
-data_processing/mean_std.csv
+data_processing/*.csv
 
