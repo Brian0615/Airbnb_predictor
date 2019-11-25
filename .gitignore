@@ -8,4 +8,5 @@ test/**/**/accplot/
 test/**/**/errorplot/
 test/**/**/final/checkpoint_final.tar
 data_processing/*.csv
+Presentation/*.csv
 
